@@ -1,0 +1,136 @@
+#header {
+	display: block;
+}
+
+#header img{
+	width: 1000px;
+	margin-top: 30px;
+	float: left;
+	overflow: hidden;
+}
+
+
+.fact {
+	float: right;
+	margin-right: 20px;
+	font-family: sans-serif;
+	font-size: 2.5em;
+	color: white;
+	width: 600px;
+	margin-left: -500px;
+	margin-top: 100px;
+	font-family: 'Finger Paint', cursive;
+
+}
+
+body{
+	background: rgb(34,69,105);
+	margin: 0px;
+	
+
+}
+
+.title{
+	float: left;
+font-family: 'Cantora One', sans-serif;
+	width: 1000px;
+	color: white;
+	font-size: 9.8em;
+	margin-top: -40px;
+}
+.blues{
+	float: left;
+	font-family: 'Cantora One', sans-serif;
+	width: 1000px;
+	color: white;
+	font-size: 14.5em;
+	margin-top: -90px;
+
+}
+.PROJECT{
+	float: left;
+	font-family: 'Cantora One', sans-serif;
+	width: 1000px;
+	color: white;
+	font-size: 10.7em;
+	margin-top: -94px;
+
+}
+.shape {
+	float: left;
+	width: 100%;
+	border-top: 2px solid rgb( 76, 136, 198);
+}
+
+.shape img{
+	float: right;
+	margin-right: 10%;
+	margin-top: -25px;
+}
+
+
+#content{
+	display: block;
+	float: right;
+	color:white;
+	font-family: 'Cantora One', sans-serif;
+	background: url('bg.png');
+	font-size: 1.5em;
+	width:100%;
+	height: 500px;
+}
+#content img{
+	float: left;
+	margin-right: 20px;
+	
+}
+.content-inner{
+	background: rgba(34,69,105,0.7);
+	
+	height: 100%;
+	padding: 50px;
+
+}
+.shape2{
+	display: block;
+	float: left;
+	width: 100%;
+	border-top: 2px solid rgb( 76, 136, 198);
+	margin-top: 25px;
+}
+.shape2 img{
+	float: left;
+	margin-left: 10%;
+	margin-top: -25px;
+}
+
+#content2-inner{
+	background: rgba(34,69,105,0.5);
+	
+	height: 100%;
+	padding: 50px;
+
+}
+#content2{
+	display: block;
+	background: url('bg2.png');
+	float: left;
+	color: white;
+	font-family: 'Cantora One', sans-serif;
+	font-size: 1.5em;
+	margin-top: 5px;
+	height: 500px;
+}
+#content2 img{
+	float: right;
+	margin-left: 10px;
+}
+#footer{
+	display: block;
+
+}
+#footer img{
+	width:100%;
+	height: 400px;
+	margin-bottom: 0px;
+}
