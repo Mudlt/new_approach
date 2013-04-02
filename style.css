@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'entypo';
+  src: url('note/font/entypo.eot');
+  src: url('note/font/entypo.eot') format('embedded-opentype'),
+  	   url('note/font/entypo.woff') format('woff'),
+       url('note/font/entypo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 #header {
 	display: block;
 }
@@ -9,6 +20,38 @@
 	overflow: hidden;
 }
 
+.entypo{
+	font-family: 'entypo';
+}
+
+.music-note {
+	position: absolute;
+	margin-top: 190px;
+	margin-left: 650px;
+	font-size: 35em;
+	color: white;
+}
+.music-note2{
+	position: absolute;
+	margin-top: 320px;
+	margin-left: 850px;
+	font-size: 30em;
+	color:white;
+}
+p{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 600px;
+	float: right;
+	color: white;
+	font-size: 4em;
+	-webkit-transition: 3s all ease-in-out;
+	transition: 3s all ease-in-out;
+}
+
+p:hover{
+	color: #e5e54d;
+}
 
 .fact {
 	float: right;
@@ -19,9 +62,6 @@
 	width: 500px;
 	margin-top: 50px;
 	font-family: 'Finger Paint', cursive;
-
-	
-
 }
 
 body{
@@ -67,28 +107,13 @@ body{
 	margin-top: -47px;
 
 }
-.note{
-	float: right;
-	position: absolute;
-	margin-left: 450px;
-	margin-top: 300px;
-}
-.note img{
-	float: right;
-}
-.note2{
-	float: right;
-	position: absolute;
-	margin-left: 650px;
-	margin-top: 350px;
-}
-.note2 img{
-	float: right;
-}
+
+
 .birds{
 	float: right;
 	margin-top: -400px;
 	margin-right: 100px;
+	z-index: 1000;
 }
 
 .birds img{
