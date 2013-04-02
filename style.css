@@ -3,7 +3,7 @@
 }
 
 #header img{
-	width: 1000px;
+	width: 600px;
 	margin-top: 30px;
 	float: left;
 	overflow: hidden;
@@ -12,13 +12,12 @@
 
 .fact {
 	float: right;
-	margin-right: 20px;
+	margin-right: 80px;
 	font-family: sans-serif;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	color: white;
-	width: 600px;
-	margin-left: -500px;
-	margin-top: 100px;
+	width: 500px;
+	margin-top: 50px;
 	font-family: 'Finger Paint', cursive;
 
 	
@@ -34,43 +33,142 @@ body{
 
 .title{
 	float: left;
-font-family: 'Cantora One', sans-serif;
+	font-family: 'Cantora One', sans-serif;
 	width: 1000px;
 	color: white;
-	font-size: 9.8em;
-	margin-top: -40px;
+	font-size: 6em;
+	margin-top: -23px;
 }
 .blues{
 	float: left;
 	font-family: 'Cantora One', sans-serif;
 	width: 1000px;
 	color: white;
-	font-size: 14.5em;
-	margin-top: -90px;
+	font-size: 8.9em;
+	margin-top: -45px;
 
+}
+.cleff{
+	float: left;
+	position: absolute;
+	margin-top: 405px;
+	margin-left: 280px;
+
+}
+.cleff img{
+	float: left;
 }
 .PROJECT{
 	float: left;
 	font-family: 'Cantora One', sans-serif;
 	width: 1000px;
 	color: white;
-	font-size: 10.7em;
-	margin-top: -94px;
+	font-size: 6.5em;
+	margin-top: -47px;
 
+}
+.note{
+	float: right;
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 300px;
+}
+.note img{
+	float: right;
+}
+.note2{
+	float: right;
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 350px;
+}
+.note2 img{
+	float: right;
+}
+.birds{
+	float: right;
+	margin-top: -400px;
+	margin-right: 100px;
+}
+
+.birds img{
+	float:right;
 }
 .shape {
 	float: left;
-	width: 100%;
+	width: 815px;
 	border-top: 2px solid rgb( 76, 136, 198);
+	margin-top: -310px;
+	margin-left: 404px;
 }
 
 .shape img{
 	float: right;
-	margin-right: 10%;
-	margin-top: -25px;
+	margin-right: 5%;
+	margin-top: -12.5px;
+}
+.shape3 {
+	float: left;
+	width: 815px;
+	border-top: 2px solid rgb( 76, 136, 198);
+	margin-top: -239px;
+	margin-left: 404px;
+
+
+
 }
 
+.shape3 img{
+	float: right;
+	margin-right: 5%;
+	margin-top: -12.5px;
+}
+.shape4 {
+	float: left;
+	width: 815px;
+	border-top: 2px solid rgb( 76, 136, 198);
+	margin-top: -168px;
+	margin-left: 404px;
 
+
+}
+
+.shape4 img{
+	float: right;
+	margin-right: 5%;
+	margin-top: -12.5px;
+}
+
+.shape5 {
+	float: left;
+	width: 815px;
+	border-top: 2px solid rgb( 76, 136, 198);
+	margin-top: -97px;
+	margin-left: 404px;
+
+
+}
+
+.shape5 img{
+	float: right;
+	margin-right: 5%;
+	margin-top: -12.5px;
+}
+.shape6 {
+	float: left;
+	width: 815px;
+	border-top: 2px solid rgb( 76, 136, 198);
+	margin-top: -26px;
+	margin-left: 404px;
+
+
+}
+
+.shape6 img{
+	float: right;
+	margin-right: 5%;
+	margin-top: -12.5px;
+}
 #content{
 	display: block;
 	float: right;
