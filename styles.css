@@ -141,6 +141,7 @@ body {
 .middle-row-sc {
   width: 100%;
   position: relative;
+  background: #dcbb98;
 }
 .middle-row-sc .middle-row-inner {
   width: 100%;
@@ -162,7 +163,7 @@ body {
   border-radius: 50%;
   top: 50px;
   left: 120px;
-  background: #b22222;
+  background: #db4545;
 }
 .middle-row-sc .middle-row-inner .about-container .circle2 {
   position: absolute;
@@ -171,7 +172,7 @@ body {
   border-radius: 50%;
   top: 110px;
   left: 60px;
-  background: #f6bf27;
+  background: #c89508;
 }
 .middle-row-sc .middle-row-inner .about-container .circle3 {
   position: absolute;
@@ -180,7 +181,7 @@ body {
   border-radius: 50%;
   top: 190px;
   left: 0;
-  background: #224569;
+  background: #315e8f;
 }
 .middle-row-sc .middle-row-inner .about-container .desc-container {
   float: left;
@@ -189,7 +190,7 @@ body {
 }
 .middle-row-sc .middle-row-inner .about-container .desc-container .title {
   font-size: 3em;
-  color: #224569;
+  color: #315e8f;
   width: 100%;
   font-family: 'whizbang';
 }
@@ -214,7 +215,7 @@ body {
 .middle-row-sc .middle-row-inner .projects-container .project-text {
   font-family: 'whizbang';
   font-size: 2em;
-  color: #224569;
+  color: #315e8f;
   margin-top: 5%;
 }
 .bottom-row-sc {
@@ -237,7 +238,7 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: #f6bf27;
+  background: #c89508;
   left: 20%;
   position: absolute;
 }
