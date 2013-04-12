@@ -1,3 +1,9 @@
+
+body{
+    margin: 0px;
+}
+
+
 @font-face {
   font-family: 'entypo';
   src: url('note/font/entypo.eot');
@@ -86,12 +92,160 @@
     overflow: hidden;
 }*/
 
+@blue : rgb( 34, 69, 105);
+@lightGrey : #c7c7c7;
+
 .view1 {
     position: relative;
     height: 700px;
+    background: @blue;
+    width: 200%;
+    .main-title-container {
+        float: left;
+        position: relative;
+        z-index: 10;
+        .the {
+            float: left;
+            font-family: 'Arbutus Slab', serif;
+            color: rgb(255,255,255);
+            font-size: 4em;
+            margin-left: -1200px;
+            margin-top: 300px;
+            text-shadow: 2px 2px 10pxrgb(76,136,198);
+        }
 
+        .title-text-shadow {
+            text-shadow: 2px 2px 1px rgb(240,224,161);
+        }
 
+        .title{
+            .title-text-shadow;
+            font-family: 'devanew';
+            color: @lightGrey;
+            font-size: 9em;
+            margin-top: 0px;
+            margin-left:10px; 
+        }
+        .blues{
+            .title-text-shadow;
+            font-family: 'ppe', serif;
+            color:@lightGrey;
+            font-size: 9.5em;
+            margin-left:10px;
+            margin-top: -50px; 
+        }
 
+        .project{
+            .title-text-shadow;
+            font-family: 'ppe', serif;
+            color: @lightGrey;
+            font-size: 6.5em;
+            margin-top: -42px;
+            margin-left:10px; 
+        }
+    }
+    .fact2 {
+        float: left;
+        margin-left: 15%;
+        font-family: sans-serif;
+        margin-top: 150px;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px; 
+        background: rgb(76,136,198);
+        p {
+            color: rgb(34,69,105);
+            font-family: 'Glametrix', serif;
+            font-size: 5em;
+            text-align: center;
+            margin-top: 5%;
+            text-shadow:1px 1px 10px rgb(199,199,199);
+        }
+    }
+    .tree{
+        float: right;
+        width: 100%;
+        position: absolute;
+        bottom:0;
+        img {
+            float: right;
+            height: 500px;
+            z-index: -1;
+        }
+    }
+}
+
+@sizeOfCircle1 : 50px;
+
+.middle-row-sc {
+    width: 100%;
+    position: relative;
+    .middle-row-inner {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        .about-container {
+            float: left;
+            margin-left: 10%;
+            position: relative;
+            width: 70%;
+            .circle1{
+                position: absolute;
+                height: @sizeOfCircle1;
+                width: @sizeOfCircle1;
+                border-radius: 50%;
+                top: 0px;
+                left: 60px;
+                background: red;
+            }
+            .circle2 {
+                position: absolute;
+                height: @sizeOfCircle1 + 20;
+                width: @sizeOfCircle1 + 20;
+                border-radius: 50%;
+                top: @sizeOfCircle1 + 10;
+                left: 40px;
+                background: yellow;
+
+            }
+            .circle3 {
+                position: absolute;
+                height: @sizeOfCircle1 + 40;
+                width: @sizeOfCircle1 + 40;
+                border-radius: 50%;
+                top: (2*@sizeOfCircle1) + 20 + 20;
+                left: 20;
+                background: green;
+            }
+            .desc-container {
+                float: left;
+                margin-left: 15%;
+                width: 80%;
+                .title{
+                    font-size: 2em;
+                    color: red;
+                    width: 100%;
+                }
+                .main-text {
+                    
+                }
+            }
+        }
+        .projects-container {
+            float: right;
+            margin-right: 20px;
+            .project-circle {
+                width: @sizeOfCircle1+20;
+                height: @sizeOfCircle1+20;
+                border-radius: 50%;
+                position: relative;
+                background: black;
+            }
+            .project-text {
+
+            }
+        }
+    }
 }
 
 
@@ -100,7 +254,7 @@
     margin-left: 500px;
     font-family: sans-serif;
     margin-top: -450px;
-        border-radius: 50%;
+    border-radius: 50%;
     width: 300px;
     height: 300px; 
     background: rgb(76,136,198);
@@ -117,117 +271,12 @@
 
         
 }
-.fact2 {
-    float: left;
-    margin-left: 850px;
-    font-family: sans-serif;
-    margin-top: -150px;
-        border-radius: 50%;
-    width: 300px;
-    height: 300px; 
-    background: rgb(76,136,198);
 
-}
-.fact2  p{
-    color: rgb(34,69,105);
-        font-family: 'Glametrix', serif;
-    font-size: 5em;
-    text-align: center;
-    margin-top: 5%;
-    text-shadow:1px 1px 10px rgb(199,199,199);
-
-        
-}
-body{
-    background: rgb(34,69,105);
-    margin: 0px;
-}
 /*THE DILLI BLUES PROJECT*/
 
-.the{
-    float: left;
-    font-family: 'Arbutus Slab', serif;
-    color: rgb(255,255,255);
-    font-size: 4em;
-    margin-left: -1200px;
-    margin-top: 300px;
-    text-shadow: 2px 2px 10pxrgb(76,136,198);
-    
-}
-.title{
-    float: left;
-    font-family: 'devanew';
-    width: 1000px;
-    color: #c7c7c7;
-    font-size: 9em;
-    margin-top: 0px;
-    margin-left:10px; 
-/*  text-shadow: 4px 4px rgb(76,136,198);
-*/
-    text-shadow: 2px 2px 1px rgb(240,224,161);
-    
-}
-.blues{
-    float: left;
-    font-family: 'ppe', serif;
-    width: 1000px;
-    color:#c7c7c7;
-        /*background: -webkit-repeating-linear-gradient(top, rgb(34,69,105) 0px, rgb(76,136,198) 23px);
-     -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    */font-size: 9.5em;
-    margin-top: -60px;
-    margin-left:10px; 
-    /*text-shadow: 2px 2px rgb(76,136,198);*/
-    text-shadow: 2px 2px 1px rgb(240,224,161);
-}
-
-.PROJECT{
-    float: left;
-    font-family: 'ppe', serif;
-    width: 1000px;
-    color: #c7c7c7;
-
-    font-size: 6.5em;
-    margin-top: -42px;
-    margin-left:10px; 
-    /*text-shadow: 2px 2px rgb(76,136,198);*/
-    text-shadow: 2px 2px 1px rgb(240,224,161);
 
 
 
-}
-
-.cam{
-    width: 300px;
-    height: 500px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-.cam img{
-    width: 300px;
-    height: 500px;
-}
-/*End of dilliblues title*/
-
-
-
-
-
-
-.tree{
-    float: right;
-    width:200%;
-    position: absolute;
-    bottom:0;
-    z-index: -1;
-}
-.tree img{
-    float: right;
-    height: 500px;
-    z-index: -1;
-
-}
 /********The line of trees*********/
 /*Total header ends here*/
 
@@ -573,256 +622,7 @@ body{
     height: 300px;
     margin-left: 25%;   
 }
-/*.tv{
-    position: absolute;
-    margin-top: -450px;
-    margin-left: 150px;
-    width: 1200px;
-    height: 650px;
-    color: white;
-    font-size: 90em;
 
-}
-.banner{
-    float: right;
-    width: 0px;
-    height: 620px;
-}
-.strip1{
-    height: 600px;
-    width: 100px;
-    background: white;
-    margin-left: 10px;
-}
-.strip2{
-    height: 600px;
-    width: 200px;
-    background: white;
-    margin-left: 220px;
-    margin-top: -600px;
-}
-.strip3{
-    height: 600px;
-    width: 200px;
-    background: white;
-    margin-left: 430px;
-    margin-top: -600px;
-}
-.strip4{
-    height: 600px;
-    width: 200px;
-    background: white;
-    margin-left: 640px;
-    margin-top: -600px;
-
-}
-.strip5{
-    height: 600px;
-    width: 200px;
-    background: white;
-    margin-left: 850px;
-    margin-top: -600px;
-}
-/*
-
-/*Pics in strip 1*//*
-.pic1{
-    float: left;
-    height: 100px;
-    width: 100px;
-    background: green;
-}
-.pic2{
-    float: left;
-    height: 100px;
-    width: 100px;
-    background: green;
-    margin-top: 10px;
-
-}
-.pic3{
-    float: left;
-    height: 100px;
-    width: 100px;
-    background: green;
-    margin-top: 10px;
-}
-.pic4{
-    float: left;
-    height: 100px;
-    width: 100px;
-    background: green;
-}
-.pic5{
-    float: left;
-    height: 100px;
-    width: 100px;
-    background: green;
-    margin-top: 10px;
-
-}
-.pic6{
-    float: left;
-    height: 100px;
-    width: 100px;
-    background: green;
-    margin-top: 10px;
-}
-/*Pics in strip2*//*
-.pic7{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -410px;
-}
-.pic8{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -200px;
-
-}
-.pic9{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: 10px;
-}
-/*Pics in strip3*//*
-.pic10{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -410px;
-}
-.pic11{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -200px;
-
-}
-.pic12{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: 10px;
-}
-/*Pics in strip4*//*
-.pic13{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -410px;
-}
-.pic14{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -200px;
-
-}
-.pic15{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: 10px;
-}
-/*Pics in strip5*//*
-.pic16{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -410px;
-}
-.pic17{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: -200px;
-
-}
-.pic18{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background: green;
-    margin-top: 10px;
-}
-*/
-/*
-}
-
-.shape2{
-    display: block;
-    float: left;
-    width: 100%;
-    border-top: 2px solid rgb( 76, 136, 198);
-    margin-top: 25px;
-}
-.shape2 img{
-    float: left;
-    margin-left: 10%;
-    margin-top: -12.5px;
-}
-#content3{
-    float: right;
-    color:white;
-    font-family: 'Cantora One', sans-serif;
-    background: url('bg.png');
-    font-size: 1.5em;
-    width:100%;
-    height: 100px;
-    margin-top: 155px;
-
-}
-.content img{
-
-}
-
-#content3-inner{
-    background: rgba(229, 229, 77,0.2);
-    height: 100%;
-    padding: 0px;
-
-
-}
-
-#content2-inner{
-    background: rgba(34,69,105,0.5);
-    
-    height: 100%;
-    padding: 50px;
-
-}
-#content2{
-    display: block;
-    background: url('bg2.png');
-    float: left;
-    color: white;
-    font-family: 'Cantora One', sans-serif;
-    font-size: 1.5em;
-    margin-top: 500 px;
-    height: 500px;
-}
-#content2 img{
-    float: right;
-    margin-left: 10px;
-}
-
-
-*/
 
 #up-arrow{
     position: absolute;
