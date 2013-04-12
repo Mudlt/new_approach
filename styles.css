@@ -49,6 +49,10 @@ body {
   font-family: 'whizbang';
   src: url('note/font/whizbang.ttf');
 }
+@font-face {
+  font-family: 'homestead';
+  src: url('note/font/homestead.ttf');
+}
 /*The header begins here!*/
 /*#header {
     display: block;
@@ -142,14 +146,13 @@ body {
 .middle-row-sc {
   width: 100%;
   position: relative;
-  background: rgba(185, 0, 0, 0.64);
+  background: url('images/bg4.png');
 }
 .middle-row-sc .middle-row-inner {
   width: 100%;
   height: 1000px;
   position: relative;
   overflow: hidden;
-  background: url('images/absurd.png');
 }
 .middle-row-sc .middle-row-inner .about-container {
   float: left;
@@ -192,9 +195,9 @@ body {
 }
 .middle-row-sc .middle-row-inner .about-container .desc-container .title {
   font-size: 3em;
-  color: #315e8f;
+  color: rgba(255, 255, 255, 0.6);
   width: 100%;
-  font-family: 'whizbang';
+  font-family: 'homestead';
 }
 .middle-row-sc .middle-row-inner .about-container .desc-container .main-text {
   font-family: 'ppe', serif;
