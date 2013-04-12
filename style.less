@@ -14,11 +14,10 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face{
     font-family: 'Glametrix';
     src: url('note/font/Glametrix.otf');
-    
-
 }
 @font-face{
     font-family: 'Glametrix';
@@ -95,11 +94,13 @@ body{
 
 @blue : rgb( 34, 69, 105);
 @lightGrey : #c7c7c7;
+@red : rgba(185, 0, 0, 0.64);
+@newColor : rgba(69, 48, 24, 0.64);
 
 .view1 {
     position: relative;
     height: 700px;
-    // background: @blue;
+    background: @blue;
     width: 200%;
     .main-title-container {
         float: left;
@@ -187,11 +188,13 @@ body{
 .middle-row-sc {
     width: 100%;
     position: relative;
+    background: @red;
     .middle-row-inner {
         width: 100%;
         height: 1000px;
         position: relative;
         overflow: hidden;
+        background: url('images/absurd.png');
         .about-container {
             float: left;
             margin-left: 10%;

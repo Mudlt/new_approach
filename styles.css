@@ -65,6 +65,7 @@ body {
 .view1 {
   position: relative;
   height: 700px;
+  background: #224569;
   width: 200%;
 }
 .view1 .main-title-container {
@@ -141,12 +142,14 @@ body {
 .middle-row-sc {
   width: 100%;
   position: relative;
+  background: rgba(185, 0, 0, 0.64);
 }
 .middle-row-sc .middle-row-inner {
   width: 100%;
   height: 1000px;
   position: relative;
   overflow: hidden;
+  background: url('images/absurd.png');
 }
 .middle-row-sc .middle-row-inner .about-container {
   float: left;
