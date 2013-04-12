@@ -153,6 +153,7 @@ body {
   height: 1000px;
   position: relative;
   overflow: hidden;
+  background: url('images/absurd.png');
 }
 .middle-row-sc .middle-row-inner .about-container {
   float: left;
@@ -177,7 +178,7 @@ body {
   border-radius: 50%;
   top: 110px;
   left: 60px;
-  background: #c89508;
+  background: #948b86;
 }
 .middle-row-sc .middle-row-inner .about-container .circle3 {
   position: absolute;
@@ -243,7 +244,7 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: #c89508;
+  background: #948b86;
   left: 20%;
   position: absolute;
 }
