@@ -279,7 +279,7 @@ body {
   height: 600px;
   left: 10%;
   background: red;
-  background: url('images/02.jpg');
+  background: url('images/bihar migrants.jpg');
 }
 .bottom-row-sc .bottom-row-inner .photo-container .photo img {
   width: 100%;
@@ -308,6 +308,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   width: 80%;
+  margin-top: 50%;
 }
 .bottom-row-sc .bottom-row-inner .photo-container .support:before {
   content: "";
