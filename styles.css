@@ -165,7 +165,7 @@ body {
   border-radius: 50%;
   top: 50px;
   left: 120px;
-  background: #b22222;
+  background: #db4545;
 }
 .middle-row-sc .middle-row-inner .about-container .circle2 {
   position: absolute;
@@ -174,7 +174,7 @@ body {
   border-radius: 50%;
   top: 110px;
   left: 60px;
-  background: #f6bf27;
+  background: #c89508;
 }
 .middle-row-sc .middle-row-inner .about-container .circle3 {
   position: absolute;
@@ -183,7 +183,7 @@ body {
   border-radius: 50%;
   top: 190px;
   left: 0;
-  background: #224569;
+  background: #315e8f;
 }
 .middle-row-sc .middle-row-inner .about-container .desc-container {
   float: left;
@@ -192,13 +192,13 @@ body {
 }
 .middle-row-sc .middle-row-inner .about-container .desc-container .title {
   font-size: 3em;
-  color: #224569;
+  color: #315e8f;
   width: 100%;
   font-family: 'whizbang';
 }
 .middle-row-sc .middle-row-inner .about-container .desc-container .main-text {
   font-family: 'ppe', serif;
-  font-size: 1.4em;
+  font-size: 2em;
   color: black;
 }
 .middle-row-sc .middle-row-inner .projects-container {
@@ -217,7 +217,7 @@ body {
 .middle-row-sc .middle-row-inner .projects-container .project-text {
   font-family: 'whizbang';
   font-size: 2em;
-  color: #224569;
+  color: #315e8f;
   margin-top: 5%;
 }
 .bottom-row-sc {
@@ -240,7 +240,7 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: #f6bf27;
+  background: #c89508;
   left: 20%;
   position: absolute;
 }
@@ -282,7 +282,7 @@ body {
   height: 600px;
   left: 10%;
   background: red;
-  background: url('images/02.jpg');
+  background: url('images/bihar migrants.jpg');
 }
 .bottom-row-sc .bottom-row-inner .photo-container .photo img {
   width: 100%;
@@ -311,6 +311,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   width: 80%;
+  margin-top: 50%;
 }
 .bottom-row-sc .bottom-row-inner .photo-container .support:before {
   content: "";
@@ -346,7 +347,7 @@ body {
 }
 .mbottom-row-sc .mbottom-row-inner .aboutus .ourtext {
   font-family: 'ppe';
-  font-size: 2em;
+  font-size: 1em;
   color: white;
 }
 /*THE DILLI BLUES PROJECT*/
