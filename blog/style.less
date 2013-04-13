@@ -1,0 +1,322 @@
+body{
+	margin: 0px;		
+	}
+
+@font-face {
+  font-family: 'entypo';
+  src: url('note/font/entypo.eot');
+  src: url('note/font/entypo.eot') format('embedded-opentype'),
+       url('note/font/entypo.woff') format('woff'),
+       url('note/font/entypo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+    font-family: 'cutelove';
+    src: url('note/font/cutelove.ttf');
+}
+@font-face{
+    font-family: 'QuaverSans';
+    src: url('note/font/QuaverSans.otf');
+}
+
+@font-face{
+    font-family: 'QuaverSerif';
+    src: url('note/font/QuaverSerif.otf');
+}
+@font-face{
+    font-family: 'Glametrix';
+    src: url('note/font/Glametrix.otf');
+}
+@font-face{
+    font-family: 'Glametrix';
+    src: url('note/font/GlametrixBold.otf');
+    
+}
+@font-face{
+    font-family: 'Glametrix';
+    src: url('note/font/GlametrixLight.otf');
+    
+}
+@font-face{
+    font-family: 'devanew';
+    src: url('note/font/devanew.ttf');
+    
+
+}
+
+@font-face{
+    font-family: 'tribal';
+    src: url('note/font/Tribal.ttf');
+    
+
+}
+
+
+@font-face{
+    font-family: 'tree';
+    src: url('note/font/tree.ttf');
+    
+
+}
+
+@font-face{
+    font-family: 'vital';
+    src: url('note/font/vital.ttf');
+    
+
+}
+
+@font-face{
+    font-family: 'ppe';
+    src: url('note/font/ppe.ttf');
+    
+
+}
+
+@font-face{
+    font-family: 'midnight';
+    src: url('note/font/midnight.ttf');
+    
+
+}
+@font-face{
+    font-family: 'whizbang';
+    src: url('note/font/whizbang.ttf');
+    
+
+}
+
+
+@font-face {
+  font-family: 'homestead';
+  src: url('note/font/homestead.ttf');
+}
+
+.entypo{
+	font-family: 'entypo';
+}
+
+
+.container{
+	width: 100%;
+	background:#fff;
+	height: auto;
+	.container-inner{
+		position: relative;
+		background: url('images/exclusive_paper.png');
+		z-index: 0;
+		.bar{
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 50px;
+		z-index: 1;
+		background: rgba(0,0,0,0.2);
+			.logobar{
+				width:  100%;
+				height: 100%;
+				position: relative;
+				.bartext{
+					position: absolute;
+					color: #443f3c;
+					left: 7%;
+					top: 35%;
+					font-family: 'QuaverSans', cursive;
+					font-size: 2em;
+				}
+				.logo1{
+					position: absolute;
+					.entypo;
+					font-size: 4em;
+					color: #443f3c;
+					left: 2%;
+				}
+				.logo2{
+					position: absolute;
+					.entypo;
+					font-size: 4em;
+					color: #443f3c;
+					right: 10%;
+
+				}
+				.logo3{
+					position: absolute;
+					.entypo;
+					font-size: 4em;
+					color: #443f3c;
+					right: 5%;
+
+				}
+			}	
+		}
+		.banner{
+		width: 100%;
+		position: relative;
+		height: 700px;
+		// background:url('images/real_cf.png');
+		background: rgba(0,0,0,.3);
+			.bannerlogo{
+				width: 100%;
+				position: absolute;
+				margin-top: 8%%;
+				.blogo{
+					position: relative;
+					.entypo;
+					color: #6d6560;	
+					font-size: 15em;
+					margin-left: 78%;
+				}
+				.bio{
+					font-family: 'QuaverSans', cursive;
+					font-size: 3em;
+					color:#6d6560; 
+					margin-left: 8%;
+					margin-top: 0%;
+				}
+				.title{
+					font-family: 'QuaverSans', cursive;
+					font-size: 7em;
+					color:#6d6560; 
+					margin-left: 8%;
+					margin-top: 10%;
+				}
+			}
+			.circles{
+			position: absolute;
+			margin-top: 45%;
+			width: 100%;
+				.circle1{
+					position: absolute;
+					.entypo;
+					text-align: center;
+					font-size: 7em;
+					color: #6d6560;
+					height: 100px;
+					width: 100px;
+					left: 60%;
+					border-radius: 50%;
+					background: #443f3c;
+				}
+				.circle2{
+					.entypo;
+					text-align: center;
+					font-size: 7em;
+					color: #6d6560;
+					position: absolute;
+					height: 100px;
+					width: 100px;
+					left: 70%;
+					border-radius: 50%;
+					background: #443f3c;
+				}
+				.circle3{
+					.entypo;
+					text-align: center;
+					font-size: 7em;
+					color: #6d6560;
+					position: absolute;
+					height: 100px;
+					width: 100px;
+					left: 80%;
+					border-radius: 50%;
+					background: #443f3c;
+				}
+					
+			}
+		}
+		.intro{
+					position: relative;
+					height: 600px;
+					width: 100%;
+					.quote{
+						position: relative;
+						width: 40%;
+						margin-left: 55%;
+						margin-top: 10%;
+						font-size: 3em;
+						font-family: 'QuaverSerif';
+						color: #443f3c;
+						text-align: center;
+					}
+					.recent-works-container {
+						position: relative;
+						width: 100%;
+						overflow: hidden;
+						margin-top: 13%;
+						.recent{
+							float: left;
+							width: 30%;
+							font-size: 3em;
+							color: #6d6560;
+							font-family: 'QuaverSans', cursive;
+							margin-top: 15px;
+							margin-left: 10px;
+
+						}
+						.rwlogo{
+							.entypo;
+							float: left;
+							font-size: 9em;
+							line-height: 0.5em;
+							color: #6d6560;
+							margin-left: 4.5%;
+						}
+
+					}
+				}
+		.page{
+			position: relative;
+			// background: yellow;
+			width: 90%;
+			height: 1000px;
+			margin-left: 5%;
+				.post {
+					position: relative;
+					width: 100%;
+					img {
+						width: 100%;	
+					}
+				}
+
+				.post1{
+					.post1-photo{
+							
+					}
+					.post1-text{
+
+							position: relative;
+							width: 90%;
+							height: 100px;
+							margin-left: 5%;
+							margin-top: 5%;
+							// background: #000;
+							font-family: 'QuaverSans', cursive;
+							color: #000;
+							font-size: 4em;
+							text-align: center;
+					}
+				
+				}
+				.post2{
+					.post2-photo{							
+						
+					}
+					.post2-text{
+							position: relative;
+							width: 90%;
+							height: 100px;
+							margin-left: 5%;
+							margin-top: 5%;
+							// background: #000;
+							font-family: 'QuaverSans', cursive;
+							color: #000;
+							font-size: 4em;
+							text-align: center;
+
+							}
+				
+			}
+		}
+	}
+}
