@@ -193,8 +193,11 @@ body{
 // @yellow : #c89508;
 @yellow : #948b86;
 @crimson : #db4545;
-// @dblue : rgb(34,69,105);
-@dblue : #315e8f;
+@dblue : rgb(34,69,105);
+// @dblue : #315e8f;
+.left{
+    width: 100%;
+    float: left;
 .middle-row-sc {
     width: 100%;
     position: relative;
@@ -246,9 +249,9 @@ body{
                 width: 80%;
                 .title{
                     font-size: 3em;
-                    color: rgba( 255,255,255,0.6) ;
+                    color: rgb( 34,69,105) ;
                     width: 100%;
-                    font-family: 'homestead';
+                    font-family: 'whizbang';
                 }
                 .main-text  {
                     font-family: 'ppe', serif;
@@ -260,7 +263,7 @@ body{
         .projects-container {
             float: right;
             margin-right: 50px;
-            margin-top: 45%;
+            margin-top: 30%;
             .project-circle {
                 width: @sizeOfCircle1+20;
                 height: @sizeOfCircle1+20;
@@ -275,7 +278,29 @@ body{
                 color: @dblue;
                 margin-top: 5%;
             }
+            
         }
+        .why-container{
+            position: relative;
+            width: 100%;
+            float: left;
+            text-align: center;
+            .why-circle{
+                height: @sizeOfCircle1+30;
+                width: @sizeOfCircle1+30;
+                border-radius: 50%;
+                background: #6d6560;
+                margin: 0 auto;
+            }
+            .why-text{
+                
+                color: black;
+                font-size: 2em;
+                font-family: 'whizbang';
+            }
+
+        }
+
     }
 }
 
@@ -432,7 +457,72 @@ body{
     }
 }
 
+}
 
+.right{
+    width: 100%;
+    height: 2400px;
+    float: right;
+    margin-right: -1240px;
+    margin-top: 0;
+    position: relative;
+    .pro-head{
+        position: relative;
+        width: 100%;
+        .pro-circle{
+            margin: 0 auto;
+            background: orange;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+        }
+        .pro-text{
+        color: red;
+        font-family: 'whizbang';
+        font-size: 5em;
+        }
+    }    
+    .project1{
+        width: 100%;
+        position: relative;
+        .project1-inner{
+            width: 100%;
+            height: 1000px;
+            position: relative;
+            overflow: hidden;
+            // background: url('images/absurd.png');
+
+            .project1-image{
+                width: 60%;
+            }
+            .project1-caption{
+                color: black;
+                font-size: 2em;
+                font-family: 'ppe';
+            }
+        }
+    }
+    .project2{
+            width: 100%;
+         position: relative;
+         margin-top: 10%;
+        .project2-inner{
+            width: 100%;
+            height: 1000px;
+            position: relative;
+            overflow: hidden;
+            // background: url('images/absurd.png');
+          .project2-image{
+                width: 80%;
+            }
+            .project2-caption{
+                color: black;
+                font-size: 2em;
+                font-family: 'ppe';
+            }
+        }
+    }
+}
 
 // .fact {
 //     float: left;
