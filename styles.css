@@ -306,7 +306,7 @@ body {
   position: absolute;
   width: 900px;
   height: 600px;
-  left: 10%;
+  left: 15px;
   background: red;
   background: url('images/bihar migrants.jpg');
 }
@@ -316,9 +316,9 @@ body {
 .left .bottom-row-sc .bottom-row-inner .photo-container .support {
   overflow: visible;
   position: absolute;
-  width: 200px;
+  width: 300px;
   height: 600px;
-  right: 10%;
+  right: 15px;
   background: #c7c7c7;
   margin-top: 0%;
 }
@@ -378,64 +378,116 @@ body {
 }
 .right {
   width: 100%;
-  height: 2400px;
+  height: 2900px;
   float: right;
   margin-right: -1240px;
   margin-top: 0;
   position: relative;
+  background: url('images/absurd.png');
 }
 .right .pro-head {
   position: relative;
   width: 100%;
+  text-align: center;
+  height: 200px;
 }
 .right .pro-head .pro-circle {
   margin: 0 auto;
-  background: orange;
+  background: #6d6560;
   border-radius: 50%;
   height: 100px;
   width: 100px;
+  margin-top: 3%;
 }
 .right .pro-head .pro-text {
-  color: red;
+  color: black;
   font-family: 'whizbang';
   font-size: 5em;
 }
 .right .project1 {
   width: 100%;
   position: relative;
+  height: 1000px;
 }
 .right .project1 .project1-inner {
   width: 100%;
-  height: 1000px;
   position: relative;
   overflow: hidden;
 }
 .right .project1 .project1-inner .project1-image {
   width: 60%;
 }
+.right .project1 .project1-inner .project1-name {
+  color: white;
+  text-shadow: 2px 2px 2px #b22222;
+  font-size: 5em;
+  font-family: 'whizbang';
+  margin-top: -15%;
+  margin-left: 5%;
+}
+.right .project1 .project1-inner .project1-vid {
+  font-family: entypo;
+  font-size: 8em;
+  color: white;
+  text-shadow: 2px 2px 5px #b22222;
+  margin-left: 5%;
+}
 .right .project1 .project1-inner .project1-caption {
   color: black;
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: 'ppe';
 }
 .right .project2 {
   width: 100%;
   position: relative;
   margin-top: 10%;
+  height: 1200px;
 }
 .right .project2 .project2-inner {
   width: 100%;
-  height: 1000px;
   position: relative;
   overflow: hidden;
 }
 .right .project2 .project2-inner .project2-image {
-  width: 80%;
+  width: 60%;
+}
+.right .project2 .project2-inner .project2-name {
+  color: white;
+  text-shadow: 2px 2px 2px #b22222;
+  font-size: 5em;
+  font-family: 'whizbang';
+  margin-top: -15%;
+  margin-left: 5%;
+}
+.right .project2 .project2-inner .project2-vid {
+  font-family: entypo;
+  font-size: 8em;
+  text-shadow: 2px 2px 5px #b22222;
+  color: white;
+  margin-left: 5%;
 }
 .right .project2 .project2-inner .project2-caption {
   color: black;
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: 'ppe';
+}
+.right .end {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  height: 200px;
+}
+.right .end .end-circle {
+  height: 200px;
+  width: 200px;
+  background: #6d6560;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.right .end .end-text {
+  color: black;
+  font-size: 4em;
+  font-family: 'tribal';
 }
 /*THE DILLI BLUES PROJECT*/
 /********The line of trees*********/
