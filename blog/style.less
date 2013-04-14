@@ -154,13 +154,13 @@ body{
 		.banner{
 		width: 100%;
 		position: relative;
-		height: 700px;
+		height: 500px;
+		padding-top: 100px;
 		// background:url('images/real_cf.png');
 		background: rgba(0,0,0,.3);
 			.bannerlogo{
 				width: 100%;
-				position: absolute;
-				margin-top: 8%%;
+				position: relative;
 				.blogo{
 					position: relative;
 					.entypo;
@@ -173,28 +173,28 @@ body{
 					border-radius: 50%;
 					background:#443f3c; 
 					text-align: center;
+					line-height: 200px;
 				}
 				.bio{
 					font-family: 'QuaverSans', cursive;
 					font-size: 3em;
 					color:#6d6560; 
 					margin-left: 8%;
-					margin-top: 0%;
 				}
 				.title{
 					font-family: 'QuaverSans', cursive;
 					font-size: 7em;
 					color:#6d6560; 
 					margin-left: 8%;
-					margin-top: 17%;
+
 				}
 			}
 			.circles{
-			position: absolute;
-			margin-top: 45%;
+			position: relative;
+			
 			width: 100%;
 				.circle1{
-					position: absolute;
+					position: relative;
 					.entypo;
 					text-align: center;
 					font-size: 7em;
@@ -210,24 +210,27 @@ body{
 					text-align: center;
 					font-size: 7em;
 					color: #6d6560;
-					position: absolute;
-					height: 100px;
-					width: 100px;
+					position: relative;
+					height: 80px;
+					width: 80px;
 					left: 70%;
 					border-radius: 50%;
 					background: #443f3c;
+					line-height: 80px;
 				}
 				.circle3{
 					.entypo;
 					text-align: center;
 					font-size: 7em;
 					color: #6d6560;
-					position: absolute;
-					height: 100px;
-					width: 100px;
+					position: relative;
+					height: 80px;
+					width: 80px;
 					left: 80%;
 					border-radius: 50%;
 					background: #443f3c;
+					line-height: 80px;
+					margin-top: -80px;
 				}
 					
 			}
@@ -306,7 +309,7 @@ body{
 			position: relative;
 			// background: yellow;
 			width: 90%;
-			height: 1000px;
+			// height: 4000px;
 			margin-left: 5%;
 				.post {
 					position: relative;
@@ -402,5 +405,32 @@ body{
 				}
 
 		}
+		.footer{
+		position: relative;
+		width: 100%;
+		// height: 500px;
+		z-index: 2;
+			img{
+				background:url('images/grey_wash_wall.png');
+				width: 100%;
+				// height: 500px;
+				opacity: 1;
+			}
+
+			.ftext{
+				position: absolute;
+				width: 60%;
+				height: 11%;
+				text-align: center;
+				border: 2px dotted #000;
+				font-size: 2em;
+				font-family: 'QuaverSans', cursive;
+				color: #443f3c;
+				margin-top: -5%;
+				margin-left: 20%;
+				line-height:2px;	
+			}
+		}
 	}
+
 }

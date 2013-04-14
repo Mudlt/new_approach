@@ -122,13 +122,13 @@ body {
 .container .container-inner .banner {
   width: 100%;
   position: relative;
-  height: 700px;
+  height: 500px;
+  padding-top: 100px;
   background: rgba(0, 0, 0, 0.3);
 }
 .container .container-inner .banner .bannerlogo {
   width: 100%;
-  position: absolute;
-  margin-top: 8%%;
+  position: relative;
 }
 .container .container-inner .banner .bannerlogo .blogo {
   position: relative;
@@ -142,28 +142,26 @@ body {
   border-radius: 50%;
   background: #443f3c;
   text-align: center;
+  line-height: 200px;
 }
 .container .container-inner .banner .bannerlogo .bio {
   font-family: 'QuaverSans', cursive;
   font-size: 3em;
   color: #6d6560;
   margin-left: 8%;
-  margin-top: 0%;
 }
 .container .container-inner .banner .bannerlogo .title {
   font-family: 'QuaverSans', cursive;
   font-size: 7em;
   color: #6d6560;
   margin-left: 8%;
-  margin-top: 17%;
 }
 .container .container-inner .banner .circles {
-  position: absolute;
-  margin-top: 45%;
+  position: relative;
   width: 100%;
 }
 .container .container-inner .banner .circles .circle1 {
-  position: absolute;
+  position: relative;
   font-family: 'entypo';
   text-align: center;
   font-size: 7em;
@@ -179,24 +177,27 @@ body {
   text-align: center;
   font-size: 7em;
   color: #6d6560;
-  position: absolute;
-  height: 100px;
-  width: 100px;
+  position: relative;
+  height: 80px;
+  width: 80px;
   left: 70%;
   border-radius: 50%;
   background: #443f3c;
+  line-height: 80px;
 }
 .container .container-inner .banner .circles .circle3 {
   font-family: 'entypo';
   text-align: center;
   font-size: 7em;
   color: #6d6560;
-  position: absolute;
-  height: 100px;
-  width: 100px;
+  position: relative;
+  height: 80px;
+  width: 80px;
   left: 80%;
   border-radius: 50%;
   background: #443f3c;
+  line-height: 80px;
+  margin-top: -80px;
 }
 .container .container-inner .intro {
   position: relative;
@@ -254,7 +255,6 @@ body {
 .container .container-inner .page {
   position: relative;
   width: 90%;
-  height: 1000px;
   margin-left: 5%;
 }
 .container .container-inner .page .post {
@@ -320,4 +320,27 @@ body {
   float: right;
   overflow: hidden;
   margin-top: 3%;
+}
+.container .container-inner .footer {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.container .container-inner .footer img {
+  background: url('images/grey_wash_wall.png');
+  width: 100%;
+  opacity: 1;
+}
+.container .container-inner .footer .ftext {
+  position: absolute;
+  width: 60%;
+  height: 11%;
+  text-align: center;
+  border: 2px dotted #000;
+  font-size: 2em;
+  font-family: 'QuaverSans', cursive;
+  color: #443f3c;
+  margin-top: -5%;
+  margin-left: 20%;
+  line-height: 2px;
 }
