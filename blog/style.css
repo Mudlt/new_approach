@@ -332,7 +332,7 @@ body {
   background-repeat: repeat-x;
   height: 200px;
   width: 100%;
-  opacity: 1;
+  opacity: .7;
 }
 .container .container-inner .footer .ftext {
   position: absolute;
