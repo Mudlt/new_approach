@@ -70,12 +70,12 @@ body {
 .container {
   width: 100%;
   background: #fff;
-  height: auto;
 }
 .container .container-inner {
   position: relative;
   background: url('images/exclusive_paper.png');
   z-index: 0;
+  height: 5000px;
 }
 .container .container-inner .bar {
   position: fixed;
@@ -117,7 +117,7 @@ body {
   font-family: 'entypo';
   font-size: 4em;
   color: #443f3c;
-  right: 5%;
+  right: 3%;
 }
 .container .container-inner .banner {
   width: 100%;
@@ -135,7 +135,13 @@ body {
   font-family: 'entypo';
   color: #6d6560;
   font-size: 15em;
-  margin-left: 78%;
+  margin-left: 73%;
+  width: 200px;
+  word-spacing: 2px;
+  height: 200px;
+  border-radius: 50%;
+  background: #443f3c;
+  text-align: center;
 }
 .container .container-inner .banner .bannerlogo .bio {
   font-family: 'QuaverSans', cursive;
@@ -149,7 +155,7 @@ body {
   font-size: 7em;
   color: #6d6560;
   margin-left: 8%;
-  margin-top: 10%;
+  margin-top: 17%;
 }
 .container .container-inner .banner .circles {
   position: absolute;
@@ -194,24 +200,39 @@ body {
 }
 .container .container-inner .intro {
   position: relative;
-  height: 600px;
+  height: 400px;
   width: 100%;
 }
-.container .container-inner .intro .quote {
+.container .container-inner .intro .quote-container {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+.container .container-inner .intro .quote-container .quote {
   position: relative;
   width: 40%;
   margin-left: 55%;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 3em;
   font-family: 'QuaverSerif';
   color: #443f3c;
   text-align: center;
 }
+.container .container-inner .intro .quote-container .dorothea {
+  position: relative;
+  font-size: 1.5em;
+  font-family: 'QuaverSerif';
+  color: #443f3c;
+  float: right;
+  width: 16%;
+  margin-right: 10%;
+}
 .container .container-inner .intro .recent-works-container {
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin-top: 13%;
+  margin-top: 8%;
+  z-index: 1;
 }
 .container .container-inner .intro .recent-works-container .recent {
   float: left;
@@ -243,25 +264,60 @@ body {
 .container .container-inner .page .post img {
   width: 100%;
 }
-.container .container-inner .page .post1 .post1-text {
+.container .container-inner .page .post1 .post1-bottom .post1-leaf {
+  font-family: 'entypo';
+  font-size: 10em;
+  color: #6d6560;
   position: relative;
-  width: 90%;
-  height: 100px;
-  margin-left: 5%;
-  margin-top: 5%;
-  font-family: 'QuaverSans', cursive;
-  color: #000;
-  font-size: 4em;
-  text-align: center;
+  float: left;
 }
-.container .container-inner .page .post2 .post2-text {
+.container .container-inner .page .post1 .post1-bottom .post1-text {
   position: relative;
   width: 90%;
   height: 100px;
-  margin-left: 5%;
-  margin-top: 5%;
   font-family: 'QuaverSans', cursive;
-  color: #000;
+  color: #443f3c;
   font-size: 4em;
   text-align: center;
+  float: right;
+  overflow: hidden;
+  margin-top: 3%;
+}
+.container .container-inner .page .post2 .post2-bottom .post2-leaf {
+  font-family: 'entypo';
+  font-size: 10em;
+  color: #6d6560;
+  position: relative;
+  float: left;
+}
+.container .container-inner .page .post2 .post2-bottom .post2-text {
+  position: relative;
+  width: 90%;
+  height: 100px;
+  font-family: 'QuaverSans', cursive;
+  color: #443f3c;
+  font-size: 4em;
+  text-align: center;
+  float: right;
+  overflow: hidden;
+  margin-top: 3%;
+}
+.container .container-inner .page .post3 .post3-bottom .post3-leaf {
+  font-family: 'entypo';
+  font-size: 10em;
+  color: #6d6560;
+  position: relative;
+  float: left;
+}
+.container .container-inner .page .post3 .post3-bottom .post3-text {
+  position: relative;
+  width: 90%;
+  height: 100px;
+  font-family: 'QuaverSans', cursive;
+  color: #443f3c;
+  font-size: 4em;
+  text-align: center;
+  float: right;
+  overflow: hidden;
+  margin-top: 3%;
 }
