@@ -75,15 +75,15 @@ body {
   position: relative;
   background: url('images/exclusive_paper.png');
   z-index: 0;
-  height: 4000px;
+  height: 5000px;
 }
 .container .container-inner .bar {
   position: fixed;
   top: 0px;
   width: 100%;
   height: 50px;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  background: #030303;
 }
 .container .container-inner .bar .logobar {
   width: 100%;
@@ -91,40 +91,44 @@ body {
   position: relative;
 }
 .container .container-inner .bar .logobar .bartext {
-  position: absolute;
-  color: #443f3c;
-  left: 7%;
-  top: 35%;
+  position: relative;
   font-family: 'QuaverSans', cursive;
   font-size: 2em;
+  margin-left: 12%;
+  margin-top: -1%;
+  color: #6d6560;
 }
 .container .container-inner .bar .logobar .logo1 {
-  position: absolute;
+  position: relative;
   font-family: 'entypo';
   font-size: 4em;
-  color: #443f3c;
-  left: 2%;
+  color: #6d6560;
+  line-height: .8px;
+  margin-left: 7%;
+  margin-top: 2%;
 }
 .container .container-inner .bar .logobar .logo2 {
-  position: absolute;
+  position: relative;
   font-family: 'entypo';
   font-size: 4em;
-  color: #443f3c;
-  right: 10%;
+  color: #6d6560;
+  line-height: 0.8px;
 }
 .container .container-inner .bar .logobar .logo3 {
-  position: absolute;
+  position: relative;
   font-family: 'entypo';
   font-size: 4em;
-  color: #443f3c;
-  right: 3%;
+  margin-left: 90%;
+  margin-top: -4%;
+  color: #6d6560;
 }
 .container .container-inner .banner {
   width: 100%;
   position: relative;
   height: 500px;
   padding-top: 100px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 3px 3px 15px #030303;
 }
 .container .container-inner .banner .bannerlogo {
   width: 100%;
@@ -172,6 +176,13 @@ body {
   border-radius: 50%;
   background: #443f3c;
 }
+.container .container-inner .banner .circles .tagbox {
+  width: 60%;
+  height: 500px;
+  position: relative;
+  background: yellow;
+  float: right;
+}
 .container .container-inner .banner .circles .circle2 {
   font-family: 'entypo';
   text-align: center;
@@ -184,6 +195,14 @@ body {
   border-radius: 50%;
   background: #443f3c;
   line-height: 80px;
+}
+.container .container-inner .banner .circles .findme {
+  width: 60%;
+  height: 500px;
+  position: relative;
+  background: red;
+  float: right;
+  margin-top: -100%;
 }
 .container .container-inner .banner .circles .circle3 {
   font-family: 'entypo';
@@ -201,7 +220,7 @@ body {
 }
 .container .container-inner .intro {
   position: relative;
-  height: 400px;
+  height: 100px;
   width: 100%;
 }
 .container .container-inner .intro .quote-container {
@@ -212,7 +231,7 @@ body {
 .container .container-inner .intro .quote-container .quote {
   position: relative;
   width: 40%;
-  margin-left: 55%;
+  margin-left: 51%;
   margin-top: 5%;
   font-size: 3em;
   font-family: 'QuaverSerif';
@@ -226,7 +245,7 @@ body {
   color: #443f3c;
   float: right;
   width: 16%;
-  margin-right: 10%;
+  margin-right: 13%;
 }
 .container .container-inner .intro .recent-works-container {
   position: relative;
@@ -237,7 +256,7 @@ body {
 }
 .container .container-inner .intro .recent-works-container .recent {
   float: left;
-  width: 30%;
+  width: 80%;
   font-size: 3em;
   color: #6d6560;
   font-family: 'QuaverSans', cursive;
@@ -263,6 +282,10 @@ body {
 }
 .container .container-inner .page .post img {
   width: 100%;
+  box-shadow: 3px 3px 7px #030303;
+}
+.container .container-inner .page .post1 {
+  height: 600px;
 }
 .container .container-inner .page .post1 .post1-bottom .post1-leaf {
   font-family: 'entypo';
@@ -283,6 +306,13 @@ body {
   overflow: hidden;
   margin-top: 3%;
 }
+.container .container-inner .page .post1 .post1-bottom .logoss {
+  font-family: 'entypo';
+  color: #6d6560;
+  font-size: 5em;
+  margin-top: -10%;
+  float: right;
+}
 .container .container-inner .page .post2 .post2-bottom .post2-leaf {
   font-family: 'entypo';
   font-size: 10em;
@@ -301,6 +331,13 @@ body {
   float: right;
   overflow: hidden;
   margin-top: 3%;
+}
+.container .container-inner .page .post2 .post2-bottom .logoss2 {
+  font-family: 'entypo';
+  color: #6d6560;
+  font-size: 5em;
+  margin-top: -10%;
+  float: right;
 }
 .container .container-inner .page .post3 .post3-bottom .post3-leaf {
   font-family: 'entypo';
@@ -321,29 +358,121 @@ body {
   overflow: hidden;
   margin-top: 3%;
 }
+.container .container-inner .page .post3 .post3-bottom .logoss3 {
+  font-family: 'entypo';
+  color: #6d6560;
+  font-size: 5em;
+  margin-top: -10%;
+  float: right;
+}
 .container .container-inner .footer {
   position: relative;
   width: 100%;
+  height: 15%;
   z-index: 2;
-  margin-top: 20%;
+  margin-top: 17%;
+  background: rgba(0, 0, 0, 0.8);
+  padding-top: 240px;
 }
-.container .container-inner .footer img {
-  background: url('images/grey_wash_wall.png');
-  background-repeat: repeat-x;
-  height: 200px;
+.container .container-inner .footer .fint {
+  position: relative;
+  font-family: 'QuaverSans', cursive;
+  color: #6d6560;
+  font-size: 3em;
   width: 100%;
-  opacity: .7;
+  margin-top: -16%;
+}
+.container .container-inner .footer .blog-container {
+  position: relative;
+  width: 92%;
+  margin-left: 4%;
+  height: 400px;
+  margin-top: 3%;
+}
+.container .container-inner .footer .blog-container .blog1 {
+  box-shadow: 1px 1px 7px #030303;
+  position: relative;
+  width: 30%;
+  height: 300px;
+  background: #443f3c;
+  margin-left: 1%;
+}
+.container .container-inner .footer .blog-container .blog1 .blog1-image {
+  width: 100%;
+}
+.container .container-inner .footer .blog-container .blog1 .blog1-image img {
+  height: 80%;
+  width: 100%;
+}
+.container .container-inner .footer .blog-container .blog1 .blog1-text {
+  position: absolute;
+  font-family: 'QuaverSans', cursive;
+  color: #6d6560;
+  font-size: 2em;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.container .container-inner .footer .blog-container .blog2 {
+  position: relative;
+  box-shadow: 1px 1px 7px #030303;
+  width: 30%;
+  height: 300px;
+  background: #443f3c;
+  margin-left: 35%;
+  margin-top: -23.7%;
+}
+.container .container-inner .footer .blog-container .blog2 .blog2-image {
+  width: 100%;
+}
+.container .container-inner .footer .blog-container .blog2 .blog2-image img {
+  height: 80%;
+  width: 100%;
+}
+.container .container-inner .footer .blog-container .blog2 .blog2-text {
+  position: absolute;
+  font-family: 'QuaverSans', cursive;
+  color: #6d6560;
+  font-size: 2em;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.container .container-inner .footer .blog-container .blog3 {
+  position: relative;
+  width: 30%;
+  box-shadow: 1px 1px 7px #030303;
+  height: 300px;
+  background: #443f3c;
+  margin-left: 69%;
+  margin-top: -23.6%;
+}
+.container .container-inner .footer .blog-container .blog3 .blog3-image {
+  width: 100%;
+}
+.container .container-inner .footer .blog-container .blog3 .blog3-image img {
+  height: 80%;
+  width: 100%;
+}
+.container .container-inner .footer .blog-container .blog3 .blog3-text {
+  position: absolute;
+  font-family: 'QuaverSans', cursive;
+  color: #6d6560;
+  font-size: 2em;
+  margin-left: 30%;
+  margin-top: 5%;
 }
 .container .container-inner .footer .ftext {
-  position: absolute;
-  width: 60%;
-  height: 20%;
+  position: relative;
+  width: 80%;
   text-align: center;
-  border: 2px dotted #000;
   font-size: 2em;
   font-family: 'QuaverSans', cursive;
   color: #443f3c;
-  margin-top: -7%;
-  margin-left: 20%;
-  line-height: 45px;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+.container .container-inner .footer .seperator {
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  border: 3px dotted #6d6560;
 }
