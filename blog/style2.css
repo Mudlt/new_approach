@@ -19,17 +19,17 @@ body {
 .entypo {
   font-family: 'entypo';
 }
-.contianer {
+.container {
   width: 100%;
   background: #000;
 }
-.contianer .container-inner {
+.container .container-inner {
   position: relative;
   background: url('images/exclusive_paper.png');
   z-index: 0;
   height: 2000px;
 }
-.contianer .container-inner .bar {
+.container .container-inner .bar {
   position: fixed;
   top: 0px;
   width: 100%;
@@ -37,12 +37,12 @@ body {
   z-index: 100;
   background: #030303;
 }
-.contianer .container-inner .bar .logobar {
+.container .container-inner .bar .logobar {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.contianer .container-inner .bar .logobar .bartext {
+.container .container-inner .bar .logobar .bartext {
   position: relative;
   /*// color: #443f3c;
 					// left: 7%;
@@ -58,7 +58,7 @@ body {
 
   color: #6d6560;
 }
-.contianer .container-inner .bar .logobar .logo1 {
+.container .container-inner .bar .logobar .logo1 {
   position: relative;
   font-family: 'entypo';
   font-size: 4em;
@@ -67,11 +67,322 @@ body {
   margin-left: 7%;
   margin-top: 2%;
 }
-.contianer .container-inner .bar .logobar .logo2 {
+.container .container-inner .bar .logobar .logo2 {
   position: relative;
   font-family: 'entypo';
   font-size: 4em;
   margin-left: 90%;
   margin-top: -4%;
   color: #6d6560;
+}
+.container .container-inner .banner {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 3px 3px 15px #030303;
+}
+.container .container-inner .banner .bannerlogo {
+  width: 100%;
+  position: relative;
+}
+.container .container-inner .banner .bannerlogo .blogo {
+  position: relative;
+  font-family: 'entypo';
+  color: #6d6560;
+  font-size: 15em;
+  margin-left: 73%;
+  width: 200px;
+  word-spacing: 2px;
+  height: 200px;
+  border-radius: 50%;
+  background: #443f3c;
+  text-align: center;
+  line-height: 200px;
+}
+.container .container-inner .banner .bannerlogo .bio {
+  font-family: 'QuaverSans', cursive;
+  font-size: 3em;
+  color: #6d6560;
+  margin-left: 8%;
+}
+.container .container-inner .banner .bannerlogo .title {
+  font-family: 'QuaverSans', cursive;
+  font-size: 7em;
+  color: #6d6560;
+  margin-left: 8%;
+}
+.container .container-inner .banner .circles {
+  position: relative;
+  width: 100%;
+}
+.container .container-inner .banner .circles .circle1 {
+  position: relative;
+  font-family: 'entypo';
+  text-align: center;
+  font-size: 7em;
+  color: #6d6560;
+  height: 100px;
+  width: 100px;
+  left: 60%;
+  border-radius: 50%;
+  background: #443f3c;
+}
+.container .container-inner .banner .circles .tagbox {
+  width: 60%;
+  height: 500px;
+  position: relative;
+  background: yellow;
+  float: right;
+}
+.container .container-inner .banner .circles .circle2 {
+  font-family: 'entypo';
+  text-align: center;
+  font-size: 7em;
+  color: #6d6560;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  left: 70%;
+  border-radius: 50%;
+  background: #443f3c;
+  line-height: 80px;
+}
+.container .container-inner .banner .circles .findme {
+  width: 60%;
+  height: 500px;
+  position: relative;
+  background: red;
+  float: right;
+  margin-top: -100%;
+}
+.container .container-inner .banner .circles .circle3 {
+  font-family: 'entypo';
+  text-align: center;
+  font-size: 7em;
+  color: #6d6560;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  left: 80%;
+  border-radius: 50%;
+  background: #443f3c;
+  line-height: 80px;
+  margin-top: -80px;
+}
+.container .container-inner .showcase {
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+.container .container-inner .showcase .linear1-container {
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 3px 3px 7px #030303;
+  position: relative;
+}
+.container .container-inner .showcase .linear1-container img {
+  width: 100%;
+  height: 300px;
+}
+.container .container-inner .showcase .linear1-container .linear1 {
+  width: 100%;
+  background: #ff6e12;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 20;
+  height: 300px;
+}
+.container .container-inner .showcase .linear1-container .text1 {
+  width: 50%;
+  height: 75px;
+  background: #443f3c;
+  position: relative;
+  font-family: 'QuaverSans', cursive;
+  font-size: 2em;
+  color: #ff6e12;
+  text-align: center;
+  margin-top: -6%;
+  margin-left: 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #030303;
+  z-index: 50;
+}
+.container .container-inner .showcase .linear2-container {
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: .5%;
+  box-shadow: 3px 3px 7px #030303;
+  position: relative;
+}
+.container .container-inner .showcase .linear2-container img {
+  width: 100%;
+  height: 300px;
+}
+.container .container-inner .showcase .linear2-container .linear2 {
+  width: 100%;
+  background: #ff2c44;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 20;
+  height: 300px;
+}
+.container .container-inner .showcase .linear2-container .text2 {
+  width: 50%;
+  height: 75px;
+  background: #443f3c;
+  position: relative;
+  font-family: 'QuaverSans', cursive;
+  font-size: 2em;
+  color: #ff2c44;
+  text-align: center;
+  margin-top: -6%;
+  margin-left: 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #030303;
+  z-index: 50;
+}
+.container .container-inner .showcase .linear3-container {
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: .5%;
+  box-shadow: 3px 3px 7px #030303;
+  position: relative;
+}
+.container .container-inner .showcase .linear3-container img {
+  width: 100%;
+  height: 300px;
+}
+.container .container-inner .showcase .linear3-container .linear3 {
+  width: 100%;
+  background: #0077c3;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 20;
+  height: 300px;
+}
+.container .container-inner .showcase .linear3-container .text3 {
+  width: 50%;
+  height: 75px;
+  background: #443f3c;
+  position: relative;
+  font-family: 'QuaverSans', cursive;
+  font-size: 2em;
+  color: #0077c3;
+  text-align: center;
+  margin-top: -6%;
+  margin-left: 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #030303;
+  z-index: 50;
+}
+.container .container-inner .showcase .linear4-container {
+  position: relative;
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: .5%;
+  box-shadow: 3px 3px 7px #030303;
+}
+.container .container-inner .showcase .linear4-container img {
+  width: 100%;
+  height: 300px;
+}
+.container .container-inner .showcase .linear4-container .linear4 {
+  width: 100%;
+  background: #009900;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 20;
+  height: 300px;
+}
+.container .container-inner .showcase .linear4-container .text4 {
+  width: 50%;
+  height: 75px;
+  background: #443f3c;
+  position: relative;
+  font-family: 'QuaverSans', cursive;
+  font-size: 2em;
+  color: #009900;
+  text-align: center;
+  margin-top: -6%;
+  margin-left: 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #030303;
+  z-index: 50;
+}
+.container .container-inner .showcase .linear5-container {
+  position: relative;
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: .5%;
+  box-shadow: 3px 3px 7px #030303;
+}
+.container .container-inner .showcase .linear5-container img {
+  width: 100%;
+  height: 300px;
+}
+.container .container-inner .showcase .linear5-container .linear5 {
+  width: 100%;
+  background: #4d004d;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 20;
+  height: 300px;
+}
+.container .container-inner .showcase .linear5-container .text5 {
+  width: 50%;
+  height: 75px;
+  background: #443f3c;
+  position: relative;
+  font-family: 'QuaverSans', cursive;
+  font-size: 2em;
+  color: #6d6560;
+  text-align: center;
+  margin-top: -6%;
+  margin-left: 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #030303;
+  z-index: 50;
+}
+.container .container-inner .showcase .linear6-container {
+  position: relative;
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: .5%;
+  box-shadow: 3px 3px 7px #030303;
+}
+.container .container-inner .showcase .linear6-container img {
+  width: 100%;
+  height: 300px;
+}
+.container .container-inner .showcase .linear6-container .linear6 {
+  width: 100%;
+  background: #ffe512;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 20;
+  height: 300px;
+}
+.container .container-inner .showcase .linear6-container .text6 {
+  width: 50%;
+  height: 75px;
+  background: #443f3c;
+  position: relative;
+  font-family: 'QuaverSans', cursive;
+  font-size: 2em;
+  color: #eeeeec;
+  text-align: center;
+  margin-top: -6%;
+  margin-left: 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #030303;
+  z-index: 50;
 }
