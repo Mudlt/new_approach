@@ -69,13 +69,13 @@ body {
 .view1 {
   position: relative;
   height: 700px;
-  background: #224569;
   width: 200%;
 }
 .view1 .main-title-container {
   float: left;
   position: relative;
   z-index: 10;
+  display: none;
 }
 .view1 .main-title-container .the {
   float: left;
@@ -123,6 +123,7 @@ body {
   height: 300px;
   background: rgba(246, 191, 39, 0.5);
   z-index: 40;
+  display: none;
 }
 .view1 .fact2 p {
   color: #c7c7c7;
@@ -489,6 +490,3 @@ body {
   font-size: 4em;
   font-family: 'tribal';
 }
-/*THE DILLI BLUES PROJECT*/
-/********The line of trees*********/
-/*Total header ends here*/
